@@ -25,7 +25,7 @@
     .fingerprint = 0x857b80c9c6517061, // Changing this has security and trust implications.
     // Tracks the earliest Zig version that the package considers to be a
     // supported use case.
-    .minimum_zig_version = "0.15.2",
+    .minimum_zig_version = "0.16.0",
     // This field is optional.
     // Each dependency must either provide a `url` and `hash`, or a `path`.
     // `zig build --fetch` can be used to fetch all dependencies of a package, recursively.
@@ -33,8 +33,8 @@
     // internet connectivity.
     .dependencies = .{
         .uuid = .{
-            .url = "https://codeberg.org/r4gus/uuid-zig/archive/0.4.0.tar.gz",
-            .hash = "uuid-0.4.0-oOieIR2AAAChAUVBY4ABjYI1XN0EbVALmiN0JIlggC3i",
+            .url = "https://codeberg.org/r4gus/uuid-zig/archive/0.6.0.tar.gz",
+            .hash = "uuid-0.5.0-oOieIRSbAACFMLvr97X_oGqnr91fdthOrxzHaRI28bhJ",
         },
     },
     .paths = .{
